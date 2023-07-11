@@ -4,7 +4,7 @@ use Translator\Framework\LaravelConfigLoader;
 use Translator\Infra\LaravelJsonTranslationRepository;
 
 return [
-    'languages' => ['ar', 'en','fr'],
+    'languages' => ['ar', 'en'],
     'directories' => [
         app_path(),
         resource_path('views'),

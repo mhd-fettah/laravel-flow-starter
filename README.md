@@ -15,6 +15,7 @@ Kickstart your Laravel development with this fully-equipped project repository. 
 - laravel-translator : Laravel Translator is a package that assists in the management and automation of language translations in a Laravel application, supporting both static and dynamic translations.
 - laravel-debugbar : Laravel Debugbar is a package that provides a developer-friendly debug bar in your application, showing detailed debug information about queries, routes, views, and more to assist during the development process.
 - laravel/ui : Laravel UI is a package that provides a simple way to scaffold basic Laravel frontend scaffolding, including simple Bootstrap and Vue.js setups, to help quickly start building your application's user interface.
+- bootstrap : Bootstrap is a popular open-source framework for building responsive, mobile-first websites and applications. It includes a comprehensive collection of HTML, CSS, and JavaScript components that makes web development faster and easier.
 
 **Packages setup features**
 - auto translation update : The Laravel Translator, set up for Arabic and English, automatically updates translations found in @lang() in views when you run php artisan translator:update during development rebuilds.
@@ -27,15 +28,13 @@ Kickstart your Laravel development with this fully-equipped project repository. 
 2. Follow the installation steps detailed in the installation guide.
 3. Edit the `.env` file according to your environment and project requirements.
 4. If you want to add more languages is simple. Insert new language code in languages array in `config/translator.php`. and create a file for it in `resources/lang` like `fr.json`.
-4. Add any additional CSS files you will use in the `resources/css` directory and import them in the `app.css` file.
+4. Add any additional CSS files you will use in the `resources/scss` directory and import them in the `app.scss` file.
 5. Add any additional JS files you will use in the `resources/js` directory and import them in the `app.js` file.
 6. Delete the initial part of the 'readme.md' up to this point. You now have a comprehensive installation guide and a project ready for development.
 
 ## Template for the Installation Guide
 
 Use the installation guide template for the final project for end-users or your development team. Modify the template according to your project's needs to provide clear and accurate setup instructions.
-
-
 
 
 

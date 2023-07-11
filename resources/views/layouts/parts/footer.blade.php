@@ -6,7 +6,7 @@
             </div>
             <div class="col-sm-6">
                 <div class="text-sm-end d-none d-sm-block">
-                    @lang('Design & Develop by') {{ config('app.author') }}
+                    @lang('Designed & Developed by') {{ config('app.author') }}
                 </div>
             </div>
         </div>

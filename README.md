@@ -60,9 +60,9 @@ resources/sass
 1. Clone the repository.
 2. Follow the installation steps detailed in the installation guide.
 3. Edit the `.env` file according to your environment and project requirements.
-4. If you want to add more languages is simple. Insert new language code in languages array in `config/translator.php`. and create a file for it in `resources/lang` like `fr.json`.
-4. Add any additional CSS files you will use in the `resources/scss` directory and import them in the `app.scss` file.
-5. Add any additional JS files you will use in the `resources/js` directory and import them in the `app.js` file.
+4. **(Optional)** to add more languages is simple. Insert new language code in languages array in `config/translator.php`. and create a file for it in `resources/lang` like `fr.json`.
+4. **(Optional)** to add any additional CSS files you will use in the `resources/scss` directory and import them in the `app.scss` file.
+5. **(Optional)** to add any additional JS files you will use in the `resources/js` directory and import them in the `app.js` file.
 6. Delete the initial part of the 'readme.md' up to this point. You now have a comprehensive installation guide and a project ready for development.
 
 ## Template for the Installation Guide

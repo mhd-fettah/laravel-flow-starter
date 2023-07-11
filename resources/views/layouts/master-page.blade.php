@@ -3,7 +3,6 @@
 
 @section('title')@endsection
 @section('head')@endsection
-@section('top-content')@endsection
 
 @section('content')
     <div class="row">

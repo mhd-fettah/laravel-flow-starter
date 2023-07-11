@@ -51,6 +51,35 @@ resources/sass
 └── app.scss (imports custom.scss, fonts.scss, icons.scss, libraries.scss, rtl.scss)
 ```
 
+- **Views structure** : The systematically crafted directory structure for our Laravel views promotes modular design, enhancing code readability and maintainability. It aligns with a thought process focused on separation of concerns, reusable components, and intuitive navigation, leading to more efficient and effective development workflows.
+```
+# Directory structure of resources/views
+resources/views
+├── admin
+│   └── ... (views that are accessible only by administrators)
+├── auth (views related to authentication, such as login, register, and password reset pages.)
+│   ├── login.blade.php
+│   ├── register.blade.php
+│   └── ...
+├── components (reusable view components)
+│   └── ...
+├── errors
+│   ├── 404.blade.php
+│   ├── 500.blade.php
+│   └── ...
+└── layouts
+    ├── master.blade.php (The basic template with all features.)
+    ├── master-auth.blade.php (A specialized template for authentication pages, which may lack certain elements, such as the navigation bar.)
+    ├── master-page.blade.php (A template for pages with shared layouts, like a common title or border.)
+    └── parts
+        ├── head.blade.php (Contains the yield('head') directive, where you can inject any extra elements needed in the HTML <head> section, as well as the page title.)
+        ├── nav.blade.php
+        ├── preloader.blade.php
+        ├── footer-scripts.blade.php (Contains the yield('scripts') directive, where you can add any extra JavaScript needed in the footer.)
+        └── footer.blade.php 
+
+```
+
 
 **Ready**
 - Auth Scaffolding ready : complete authentication system using Bootstrap 5. This includes views for user login, registration, password reset, email confirmation, and user dashboard, all styled using Bootstrap 5.

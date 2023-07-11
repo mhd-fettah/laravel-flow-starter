@@ -1,8 +1,16 @@
 // Fonts
-@import url('https://fonts.bunny.net/css?family=Nunito');
+@import "fonts/fonts";
+@import url('https://fonts.bunny.net/css?family=Nunito'); //todo check
 
-// Variables
+//Core files
 @import 'variables';
-
-// Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+// Custom
+@import "custom/custom";
+
+// Icons
+@import "icons/icons";
+
+// RTL
+@import "rtl/rtl";

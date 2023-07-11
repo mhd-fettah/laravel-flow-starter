@@ -10,9 +10,13 @@
 Kickstart your Laravel development with this fully-equipped project repository. With Laravel Debugbar, Livewire, an automatic translator, and Vite all pre-installed and configured, you can get straight to building your application without worrying about the initial setup.
 ## Features  
 
-**packages**
+**Packages**
 - Livewire: Laravel Livewire is a full-stack framework for Laravel that allows you to write dynamic, interactive web applications entirely in PHP, without requiring you to write JavaScript.
--
+- laravel-translator : Laravel Translator is a package that assists in the management and automation of language translations in a Laravel application, supporting both static and dynamic translations.
+
+**Packages setup features**
+
+**Extra must have snippet of code**
 
 ## How to Use 
 

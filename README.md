@@ -80,9 +80,16 @@ resources/views
 
 ```
 
+**Harness the Full Power of Laravel**
+- **Casts** : to create `php artisan make:cast XXXCastNameXXX` : convert the values between different types when you are fetching from or storing to the database. This facilitates data handling and reduces the need for additional transformation logic.
+- **Requests** : to create `php artisan make:request XXXRequestNameXXX` : handle and validate incoming HTTP requests. This promotes secure and reliable data input practices.
+- **Models** : to create `php artisan make:model XXXModelNameXXX` : representing the logical structure and relationships of database tables. They enable a smooth, intuitive, and object-oriented way to interact with your database.
+- **Migration** : to create `php artisan make:migration XXXtable_nameXXX` : Migrations are a way to create and modify your database tables structure. without touching the database directly.
+- **Policies** : to create `php artisan make:policy XXXPolicyNameXXX` : Laravel's 'Policies' are used to organize authorization logic around a particular model or resource. They help in keeping the access control logic decentralized and more manageable.
+- **Routes Groups** : samples added to `web.php` : group several routes under a specific set of attributes (like middleware, namespaces, etc.). This makes the routes file more organized and the routing behavior more customizable.
 
-**Ready**
-- Auth Scaffolding ready : complete authentication system using Bootstrap 5. This includes views for user login, registration, password reset, email confirmation, and user dashboard, all styled using Bootstrap 5.
+**Ready to use**
+- Auth Scaffolding : complete authentication system using Bootstrap 5. This includes views for user login, registration, password reset, email confirmation, and user dashboard, all styled using Bootstrap 5.
 
 ## How to Use 
 

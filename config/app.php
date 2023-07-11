@@ -16,7 +16,9 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'laravel bolt starter'),
+    'description' => env('APP_DESCRIPTION', 'made with laravel bolt starter'),
+    'author' => env('APP_AUTHOR', 'Fettah@n3xt.tech'),
 
     /*
     |--------------------------------------------------------------------------

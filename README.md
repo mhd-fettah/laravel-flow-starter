@@ -17,10 +17,12 @@ Kickstart your Laravel development with this fully-equipped project repository. 
 - **laravel/ui** : Laravel UI is a package that provides a simple way to scaffold basic Laravel frontend scaffolding, including simple Bootstrap and Vue.js setups, to help quickly start building your application's user interface.
 - **bootstrap** : Bootstrap is a popular open-source framework for building responsive, mobile-first websites and applications. It includes a comprehensive collection of HTML, CSS, and JavaScript components that makes web development faster and easier.
 - **Vite** : Vite is a next-generation frontend build tool created by Evan You, the creator of Vue.js. The integration of Vite with Laravel can dramatically improve the developer experience by providing fast server start-up, instant hot-module replacement (HMR), and true on-demand compilation.
+- **purgecss** : PurgeCSS is a tool often used in web development to remove unused CSS. It analyzes your content and your CSS files, and then matches the selectors used in your files with the ones in your content files. Any CSS selectors that it cannot match to content will be removed. This results in a smaller CSS file size, which can improve load times and performance for your website.
 
 **Packages setup features**
 - **auto translation update** : The Laravel Translator, set up for Arabic and English, automatically updates translations found in @lang() in views when you run php artisan translator:update during development rebuilds.
 - **auto Front-end (Compilation,Optimization,Bundling,Versioning)** : with Vite in a Laravel project automates front-end asset management. When you run npm run build, it compiles, optimizes, and bundles your JavaScript and CSS files, resulting in faster load times. It also versions assets, ensuring the browser always loads the latest updates.
+- **auto css cleanup** : When you execute the npm run build command, PurgeCSS operates in the background, automating the process. optimized CSS file that only includes the styles that are used in `resources/views` , ultimately leading to faster load times and a more efficient application , and better development process.
 
 **Extra must have snippet of code**
 

@@ -14,6 +14,7 @@ Kickstart your Laravel development with this fully-equipped project repository. 
 - Livewire: Laravel Livewire is a full-stack framework for Laravel that allows you to write dynamic, interactive web applications entirely in PHP, without requiring you to write JavaScript.
 - laravel-translator : Laravel Translator is a package that assists in the management and automation of language translations in a Laravel application, supporting both static and dynamic translations.
 - laravel-debugbar : Laravel Debugbar is a package that provides a developer-friendly debug bar in your application, showing detailed debug information about queries, routes, views, and more to assist during the development process.
+- laravel/ui : Laravel UI is a package that provides a simple way to scaffold basic Laravel frontend scaffolding, including simple Bootstrap and Vue.js setups, to help quickly start building your application's user interface.
 
 **Packages setup features**
 - auto translation update : The Laravel Translator, set up for Arabic and English, automatically updates translations found in @lang() in views when you run php artisan translator:update during development rebuilds.

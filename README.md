@@ -15,6 +15,7 @@ Kickstart your Laravel development with this fully-equipped project repository. 
 - laravel-translator : Laravel Translator is a package that assists in the management and automation of language translations in a Laravel application, supporting both static and dynamic translations.
 
 **Packages setup features**
+- auto translation update : The Laravel Translator, set up for Arabic and English, automatically updates translations found in @lang() in views when you run php artisan translator:update during development rebuilds.
 
 **Extra must have snippet of code**
 
@@ -23,6 +24,7 @@ Kickstart your Laravel development with this fully-equipped project repository. 
 1. Clone the repository.
 2. Follow the installation steps detailed in the installation guide.
 3. Edit the `.env` file according to your environment and project requirements.
+4. If you want to add more languages is simple. Insert new language code in languages array in `config/translator.php`. and create a file for it in `resources/lang` like `fr.json`.
 4. Add any additional CSS files you will use in the `resources/css` directory and import them in the `app.css` file.
 5. Add any additional JS files you will use in the `resources/js` directory and import them in the `app.js` file.
 6. Delete the initial part of the 'readme.md' up to this point. You now have a comprehensive installation guide and a project ready for development.

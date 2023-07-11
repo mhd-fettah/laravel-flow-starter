@@ -24,7 +24,36 @@ Kickstart your Laravel development with this fully-equipped project repository. 
 - **auto Front-end (Compilation,Optimization,Bundling,Versioning)** : with Vite in a Laravel project automates front-end asset management. When you run npm run build, it compiles, optimizes, and bundles your JavaScript and CSS files, resulting in faster load times. It also versions assets, ensuring the browser always loads the latest updates.
 - **auto css cleanup** : When you execute the npm run build command, PurgeCSS operates in the background, automating the process. optimized CSS file that only includes the styles that are used in `resources/views` , ultimately leading to faster load times and a more efficient application , and better development process.
 
-**Extra must have snippet of code**
+**Design pattern and scructure**
+- **CSS structure** : The CSS structure for this project has been carefully designed for a streamlined development experience. All CSS files are located under resources/sass, which is divided into several subdirectories: 
+```
+resources/sass
+├── custom
+│   ├── _custom1.scss
+│   ├── _custom2.scss
+│   └── custom.scss (imports custom1.scss and custom2.scss)
+├── fonts
+│   ├── _font1.scss
+│   ├── _font2.scss
+│   └── fonts.scss (imports font1.scss and font2.scss)
+├── icons
+│   ├── _icon1.scss
+│   ├── _icon2.scss
+│   └── icons.scss (imports icon1.scss and icon2.scss)
+├── libraries
+│   ├── _library1.scss
+│   ├── _library2.scss
+│   └── libraries.scss (imports library1.scss and library2.scss)
+├── rtl
+│   ├── _rtl1.scss
+│   ├── _rtl2.scss
+│   └── rtl.scss (imports rtl1.scss and rtl2.scss)
+└── app.scss (imports custom.scss, fonts.scss, icons.scss, libraries.scss, rtl.scss)
+```
+
+
+**Ready**
+- Auth Scaffolding ready : complete authentication system using Bootstrap 5. This includes views for user login, registration, password reset, email confirmation, and user dashboard, all styled using Bootstrap 5.
 
 ## How to Use 
 

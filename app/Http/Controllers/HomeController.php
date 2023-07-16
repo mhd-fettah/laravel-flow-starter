@@ -11,6 +11,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        /*\Debugbar::info('test');*/
+
         return view('home');
     }
 }

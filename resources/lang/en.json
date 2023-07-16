@@ -6,7 +6,9 @@
     "Designed & Developed by": "",
     "Email Address": "",
     "Forgot Your Password?": "",
+    "Home": "",
     "If you did not receive the email": "",
+    "Language": "",
     "Login": "",
     "Logout": "",
     "Name": "",
@@ -20,5 +22,6 @@
     "Verify Your Email Address": "",
     "You are logged in!": "",
     "click here to request another": "",
-    "laravel": ""
+    "laravel": "",
+    "this is public home page": ""
 }

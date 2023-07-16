@@ -11,7 +11,7 @@ Route::middleware('auth')->group(function() {
 });
 
 // Sample Group with auth
-/*Route::middleware(['auth', 'active'])->group(function() {
+/*Route::middleware(['auth'])->group(function() {
 
     // Sample Controller
     Route::controller(SampleController::class)->prefix('/item')->group(function () {

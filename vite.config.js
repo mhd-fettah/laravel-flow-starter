@@ -12,7 +12,14 @@ export default defineConfig({
             refresh: true,
         }),
         purge({
-            templates: ['blade']
+            templates: ['blade'],
+            /*paths: [
+                'resources/views/!**!/!*.blade.php',
+                'resources/{js,views}/!**!/!*.vue'
+            ],*/
+            safelist: [
+                'show','data-bs-popper'  /*for drop down menu classes that being added on run*/
+            ]
         })
     ],
 });

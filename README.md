@@ -89,8 +89,10 @@ resources/views
 - **Routes Groups** : samples added to `web.php` : group several routes under a specific set of attributes (like middleware, namespaces, etc.). This makes the routes file more organized and the routing behavior more customizable.
 
 **Ready to use**
-- Auth Scaffolding : complete authentication system using Bootstrap 5. This includes views for user login, registration, password reset, email confirmation, and user dashboard, all styled using Bootstrap 5.
-- Auto language switcher : detect the user browser language and switch the language for first time according to it for best user experience . 
+- **Auth Scaffolding** : complete authentication system using Bootstrap 5. This includes views for user login, registration, password reset, email confirmation, and user dashboard, all styled using Bootstrap 5.
+- **language switcher** : ready to use out of the box , with routes , packageed controlers , UI sample drop down.
+- **Auto language switcher** : detect the user browser language and switch the language for first time according to it for best user experience . 
+
 
 ## How to Use 
 

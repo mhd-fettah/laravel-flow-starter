@@ -13,10 +13,15 @@ class SetLocale
     public function handle($request, Closure $next)
     {
         if (Session::has('locale')) {
-            App::setLocale(Session::get('locale'));
+            // If the locale is already set in the session, use it.
+            $locale = Session::get('locale');
+        } else {
+            // Otherwise, determine the locale from the Accept-Language header.
+            $locale = substr($request->server('HTTP_ACCEPT_LANGUAGE'), 0, 2);
         }
+
+        App::setLocale($locale);
 
         return $next($request);
     }
-
 }
